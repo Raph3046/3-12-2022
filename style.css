@@ -1,6 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #FDF3C7;
 }
 .first {
-  font-size: 25px
+  font-size: 25px;
+}
+.logo {
+
+  padding-left: 10px;
+}
+
+img {
+  height: 450px;
+}
+p {
+  border: solid orange;
+  background-color: orange;
+  color: white;
+  padding-left: 500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.list {
+  width: 465px;
+  display: inline-block;
+  position: relative;
+  bottom: 200px;
+}
+
+.townsleep, .townfood, .townshop {
+  width: 465px;
+  display: inline-block;
+  margin-left: 200px;
+}
+li {
+  font-size: 25px;
+  color: yellow;
+}
+h2 {
+  font-size: 50px;
+  color: darkcyan;
+}
+h1 {
+  padding-left: 380px;
+  color: darkcyan;
+}
+.logo {
+  margin-left: 200px
+}
+a {
+  color: orange;
 }
